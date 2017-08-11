@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package Lnkn_splitter;
+
+message Data_chunk {
+
+bytes Chunk = 1;
+
+}
+
+message Data_header {
+string Final_file_name = 1;
+repeated string File_name = 2;
+
+}
+
