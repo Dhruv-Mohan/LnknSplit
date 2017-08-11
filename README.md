@@ -10,4 +10,4 @@ Merger objects need to be given the complete path of the generated .head file
 You'll need to use the protobuf library found [here](https://developers.google.com/protocol-buffers/) if you want to use custom protocol buffers.
 You can use Proto->split.proto as an template
 
-I've tested the scripts on Python 3.6
+Tested on Python 3.6
